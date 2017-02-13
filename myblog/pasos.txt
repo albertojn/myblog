@@ -1,0 +1,25 @@
+$ mkdir mysite
+$ cd mysite
+$ virtualenv -p python3 env
+$ source env/bin/activate
+$ pip install django==1.7
+$ django-admin startproject website .
+$ deactivate
+$ exit
+
+Close the window
+
+http://www.pearsonintlsupport.com/support247/Downloads/TopNotch_Summit_shells/patch/
+
+Use para intentar corregir error del admin (No Funciono)
+python manage.py makemigrations
+
+Despues probe (Funciono)
+python manage.py migration
+
+Para crea el superuser
+python manage.py createsuperuser
+
+
+
+
